@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const apiKey = '1c7ccd53544689193199e2ac1ec7fc00';
 
+
 function MovieDetails() {
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
